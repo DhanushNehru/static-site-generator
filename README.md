@@ -18,7 +18,7 @@ A simple static site generator built with TypeScript. This tool reads markdown f
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/static-site-generator.git
+    git clone https://github.com/DhanushNehru/static-site-generator.git
     cd static-site-generator
     ```
 
