@@ -1,0 +1,24 @@
+{
+  "name": "static-site-generator",
+  "version": "1.0.0",
+  "description": "## Gitpod",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "generate": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "marked": "^13.0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
